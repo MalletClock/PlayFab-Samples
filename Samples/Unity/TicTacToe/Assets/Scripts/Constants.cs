@@ -6,7 +6,7 @@ public class Constants
     // It is strongly adviced to move this data out of the game client in a real production environment
 
     // API settings
-    public const string TITLE_ID = "";
+    public const string TITLE_ID = "72C72";
     public const string CLOUD_NAME = "";
     public const bool COMPRESS_API_DATA = false;
     public const string PLAYER = "Player";
@@ -17,7 +17,7 @@ public class Constants
     public const string WIN_CHECK_FUNCTION_NAME = "WinCheck";
     public const string CREATE_STAT_FUNCTION_NAME = "TryCreateStatistics";
     public const string PLAYER_MOVE_FUNCTION_NAME = "MakePlayerMove";
-    public const string AI_MOVE_FUNCTION_NAME = "MakeAIMove";
+    public const string AI_MOVE_FUNCTION_NAME = "MakeMinimaxAIMove";
     public const string RESET_GAME_STATE_FUNCTION_NAME = "ResetGameState";
 
     // Status messages
